@@ -391,7 +391,7 @@ Version:	1.1
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('http://via.placeholder.com/1500x800');
+	background-image: url('images/banner-pattern.gif');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;
@@ -408,7 +408,7 @@ Version:	1.1
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url('images/banner-pattern.png');
+	background: url('');
 	opacity: 0.5;
 	content: "";
 	z-index: -1;
@@ -504,7 +504,7 @@ Version:	1.1
 
 /* Personal Particle */
 #personal-area.particle {
-	background-image: url('http://via.placeholder.com/1500x800');
+	background-image: url('images/banner-pattern.gif');
 	z-index:100;
 	width:100%;
 	height:100%;
@@ -747,9 +747,9 @@ Version:	1.1
 	color:#fff;
 }
 #about-me .tab-content {
-	background: #333;
+	background: rgb(20, 80, 95);
 	padding: 30px 30px 30px 100px;
-	border-radius: 5px;
+	border-radius: 15px;
 }
 #about-me .tab-pane {
 	transition: all 0.4s ease;
@@ -787,7 +787,8 @@ Version:	1.1
 	width: 0;
 	height: 0;
 	background: rgba(255,255,255,.2);
-	border-radius: 100%;
+	border-radius: 15px;
+	/*border-radius: 100%;*/
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	opacity: 0;
@@ -1420,7 +1421,7 @@ Version:	1.1
 }
 #my-timeline .timeline-inner:before{
 	content: "";
-	*/-webkit-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin-left: -2px;
@@ -1721,7 +1722,6 @@ Version:	1.1
 #testimonials .rating li{
 	display:inline-block;
 }
-#testimonials .owl-nav{}
 #testimonials .owl-nav div {
 	position: absolute;
 	top: 50%;
@@ -2169,7 +2169,7 @@ Version:	1.1
 	border-radius:100%;
 	display:inline-block;
 	text-align:center;
-	float:right;
+	/*float:right;*/
 	color:#fff;
 	font-size:13px;
 }
@@ -2208,7 +2208,6 @@ Version:	1.1
 	position: relative;
 	float: left;
 }
-#blog.single .prev-next ul{}
 #blog.single .prev-next ul li {
 	left: 0;
 	display: inline-block;
@@ -2713,7 +2712,7 @@ Version:	1.1
   Footer CSS
 =========================*/
 #footer {
-	background: #333;
+	background: rgb(46, 92, 100);
 	padding: 15px 0 10px;
 	text-align: center;
 	position: relative;
